@@ -24,9 +24,8 @@ import run.halo.app.repository.base.BaseRepositoryImpl;
 @EnableAsync
 @EnableJpaRepositories(basePackages = "run.halo.app.repository", repositoryBaseClass = BaseRepositoryImpl.class)
 public class Application extends SpringBootServletInitializer {
-
     private static ConfigurableApplicationContext CONTEXT;
-
+//hello
     public static void main(String[] args) {
         // Customize the spring config location
         System.setProperty("spring.config.additional-location", "file:${user.home}/.halo/,file:${user.home}/halo-dev/");
